@@ -1,0 +1,39 @@
+{
+  "name": "rx-collectionassert",
+  "author": "Seth House <seth@eseth.com> (http://eseth.org)",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "description": "A port of the collectionassert function in the RxJS docs using Node's assert lib",
+  "private": false,
+  "keywords": [
+    "Rx",
+    "RxJS",
+    "testing",
+    "tests"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteinge/rx-collectionassert.git"
+  },
+  "homepage": "https://github.com/whiteinge/rx-collectionassert#readme",
+  "peerDependencies": {
+    "rx": "4.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {}
+  },
+  "bugs": {
+    "url": "https://github.com/whiteinge/rx-collectionassert/issues"
+  },
+  "scripts": {
+    "test": "tape tests.js tests/**/*.js"
+  },
+  "devDependencies": {
+    "tape": "~4.6.0"
+  }
+}
